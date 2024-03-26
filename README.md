@@ -125,4 +125,4 @@ A continuación se detallan los endpoints disponibles en la API:
 
 ## Autor 🖋️
 
-- [@JoanArturo](https://github.com/JoanArturo)
+- [@CristianGarcia](https://github.com/CristianGarci42022)
