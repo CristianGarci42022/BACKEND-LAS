@@ -14,7 +14,7 @@ Para la correcta ejecución de este proyecto, necesitas tener las siguientes tec
 
 1. Clona este proyecto.
 ```bash
-git clone https://github.com/JoanArturo/budget-buddy-api.git
+git clone https://github.com/CristianGarci42022/Crud-LAS
 ```
 
 2. Instala las dependencias de PHP con composer.
@@ -22,7 +22,7 @@ git clone https://github.com/JoanArturo/budget-buddy-api.git
 composer install
 ```
 
-3. Crea una nueva base de datos con tu gestor de base de datos preferido. Como sugerencia podrías crear una base de datos llamada `budget_buddy`.
+3. Crea una nueva base de datos con tu gestor de base de datos preferido. Como sugerencia podrías crear una base de datos llamada `Accounts-in-Order`.
 
 4. Crea una copia del archivo env.example, renombralo como .env y configura las variables de entorno correspondientes, preferiblemente las variables para la conexión a la base de datos.
 ```json
@@ -105,9 +105,9 @@ php artisan serve
 ## Construido con 🛠️
 
 - [PHP 8.1](https://www.php.net/releases/8.1/es.php)
-- [Laravel 10](https://laravel.com/docs/10.x)
+- [Laravel](https://laravel.com/docs/10.x)
 - [Composer 2.6.5](https://getcomposer.org/)
-- [MySQL 8.2.0](https://dev.mysql.com/downloads/mysql/)
+- [MySQL ](https://dev.mysql.com/downloads/mysql/)
 
 
 ## Endpoints 🔗
