@@ -1,30 +1,34 @@
 
-# BudgetBuddy API
+# Tus Cuentas en Orden
 
-Este proyecto se centra en la creación de una API diseñada para gestionar registros de gastos. La API ofrece un conjunto de endpoints que posibilitan diversas operaciones, entre las que se incluyen la obtención de un listado completo de gastos, la recuperación de información detallada de un gasto específico, la creación de nuevos registros de gastos, la actualización de información existente sobre un gasto y la eliminación de registros de gastos previamente almacenados. 
+"Tus Cuentas en Orden" es un proyecto que se enfoca en simplificar la gestión de gastos. Proporciona una API con diversos endpoints para ver, crear, actualizar y eliminar registros de gastos. ¡Controla tus finanzas de manera eficiente con nuestra plataforma!
 
 ## Pre-requisitos 📋
 
 Para la correcta ejecución de este proyecto, necesitas tener las siguientes tecnologías instaladas en tu ordenador.
 * PHP ^8.1
 * Composer 2
-* MySQL
+* Xampp Base de datos MySql
+
 
 ## Instalación 🔧
 
 1. Clona este proyecto.
-```bash
-git clone https://github.com/CristianGarci42022/Crud-LAS
-```
+
+        git clone https://github.com/CristianGarci42022/Crud-LAS
+
 
 2. Instala las dependencias de PHP con composer.
-```bash
-composer install
-```
 
-3. Crea una nueva base de datos con tu gestor de base de datos preferido. Como sugerencia podrías crear una base de datos llamada `Accounts-in-Order`.
+        composer install
 
-4. Crea una copia del archivo env.example, renombralo como .env y configura las variables de entorno correspondientes, preferiblemente las variables para la conexión a la base de datos.
+
+3. Crea una nueva base de datos con tu gestor de base de datos preferido. Como sugerencia podrías crear una base de datos llamada `Accounts-in-Order`..
+   # IMPORTANTE:
+   - Es indispensable tener clonado y en ejecución el proyecto [Crud-LAS](https://github.com/CristianGarci42022/Crud-LAS)
+   - Es indispensable estar ejecutando Xampp para la administracion de la base de datos llamada `Accounts-in-Order`.
+
+5. Crea una copia del archivo env.example, renombralo como .env y configura las variables de entorno correspondientes, preferiblemente las variables para la conexión a la base de datos.
 ```json
 APP_NAME=BudgetBuddy
 APP_ENV=local
